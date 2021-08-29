@@ -15,7 +15,7 @@ public class PrimeNumber {
 
 		for (int i = 2; i < num; i++) {
 			if (num % i == 0) {
-				temp = 1 + temp;
+				temp++;
 
 			}
 		}
